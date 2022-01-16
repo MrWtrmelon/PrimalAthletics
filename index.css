@@ -1,0 +1,432 @@
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Open Sans';
+  }
+  
+  [class*="col-"] {
+    float: left;
+    border: 1px solid rgba(255, 0, 0, 0);
+  }
+  
+  .col-0 {width: 0%;}
+  .col-1-2 {width: 4.15%;}
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-20 {width: 20%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-40 {width: 40%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-60 {width: 60%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-80 {width: 80%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  .col-45 {width: 45.835%;}
+
+  a:hover {text-decoration: underline;}
+
+/* Header CSS*/
+  header {
+      background-color: #031217;
+      position: fixed;
+      z-index: 1;
+  }
+
+  .header-logo-text {
+    font-family: 'Black Ops One';
+    display: inline-block;
+    font-size: 18px;
+    color: #CF0000;
+    transform: translateY(-20px);
+    text-decoration: none;
+  }
+
+  .logo {
+    width: 45px;
+    height: 55px;
+  }
+
+  ul, li {
+    list-style: none;
+    list-style-type: none;
+    margin: 5%;
+  }
+
+  .menu-links {
+      color: white;
+      text-decoration: none;
+  }
+
+  .hamburger-Icon {
+    color: white;
+    margin: 5%;
+    font-size: 24px;
+  }
+
+  .close-Hamburger-Icon {
+    color: white;
+    display: none;
+    margin: 5%;
+    font-size: 24px;
+    font-family: Lato;
+  }
+
+  .header-Popup {
+      color: white;
+      background-color: red;
+      border: none;
+      padding: 1%;
+  }
+
+.mobile-Menu-Items {display: none;}
+
+.col-1 h4 {
+  color: white;
+}
+
+/* Content CSS*/
+
+.content-img2 {
+  width: 100%;
+}
+
+/* Hero Image CSS */
+.hero {
+    background: url(./images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 50px 0px;
+}
+
+.hero-article {
+  text-align: center;
+}
+
+.hero-inPerson {
+  background: url(./images/inPerson.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-online {
+  background: url(./images/online.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero h1{
+    padding: 100px 3% 5% 10%;
+    font-family: 'Black Ops One', cursive;
+    font-size: 48px;
+}
+
+.hero h2 {
+    padding: 1% 3% 1% 10%;
+    font-family: 'Open Sans';
+    font-size: 28px;
+    font-weight: 200;
+}
+
+.hero .hero-quote {
+  font-size: 18px;
+}
+
+.hero .button {
+    display: inline-block;
+    margin: 5% 3% 7% 10%;
+    font-family: 'Black Ops One';
+    font-size: 28px;
+    padding: 10px 20px;
+    background: #CF0000;
+    text-decoration: none;
+    color: white;
+}
+
+.desktop-Mode {display: none;}
+.mobile-Mode {display: block; text-align: right;}
+
+/* About Section CSS */
+
+.about {
+  padding: 60px 40px;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 27px;
+  color: #CF0000;
+}
+
+h4 {
+  color: #e27474;
+}
+
+p {
+  line-height: 32px;
+}
+
+.about-bullet-points {
+  color: black;
+}
+
+/* Options Section CSS */
+
+.options-container:hover, .button:hover {transform: scaleY(1.05);}
+
+.options-container {
+  position: relative;
+  border: 3px solid white;
+  text-decoration: none;
+}
+
+.options-h3 {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  padding: 275px 50px;
+  font-family: 'Black Ops One';
+  color: white;
+}
+
+.options-container-banner {
+  position: relative;
+}
+
+.options-img-banner {
+  width: 100%;
+  height: 450px;
+}
+
+.options-h3-banner {
+  position: absolute;
+  bottom: 150px;
+  left: 10%;
+  right: 10%;
+  color: white;
+}
+
+/* Article CSS */
+
+article {
+  display: inline-block;
+  padding: 60px 40px;
+}
+
+.article-img {
+  width: 100%;
+}
+
+.article-continue {
+  color: #CF0000;
+}
+
+/* Deal Section CSS*/
+
+.deal {
+  background-color: #CF0000;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.deal-grab {
+  font-size: 52px;
+  font-family: 'Black Ops One';
+}
+
+/* CTA Section CSS */
+
+.cta-h3 {
+  font-family: 'Black Ops One';
+  padding: 150px 0px 0px 0px;
+}
+
+.cta-h4 {
+  padding: 40px 0px 0px 0px;
+}
+
+.cta-h1 {
+  font-size: 48px;
+  font-family: 'Black Ops One';
+  color: #CF0000;
+  padding: 0px 0px 150px 0px;
+}
+
+.cta {
+  text-align: center;
+}
+
+/* Footer Section CSS */
+
+footer {
+  background-color: #031217;
+  padding: 20px;
+}
+
+.footer-logo {
+  width: 55px;
+  height: 70px;
+}
+
+.footer-logo-text {
+  font-family: 'Black Ops One';
+  display: inline-block;
+  font-size: 28px;
+  color: #CF0000;
+  transform: translateY(-24px);
+  text-decoration: none;
+}
+
+.footer-logo-text:hover {text-decoration: none;}
+
+footer h4 {
+  color: white;
+  font-size: 18px;
+}
+
+footer a {
+  color:white;
+  text-decoration: underline;
+}
+
+footer div.col-3 a {
+  color:white;
+  text-decoration: underline;
+  display: block;
+}
+
+/* Popup Section CSS */
+
+.popup {
+  position: fixed;
+  z-index: 10;
+  background-color: rgb(173, 173, 173, 0.7);
+  top: 0;
+}
+
+.popup-top {
+  height: 250px;
+}
+
+.popup-bottom {
+  height: 250px;
+}
+
+.popup-close {
+  text-align: right;
+}
+
+.popup-red {
+  padding: 20px;
+  background-color: red;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.popup-white {
+  padding: 20px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.popup-border {
+  border-radius: 20px;
+  border: rgb(173, 173, 173) 2px solid;
+  text-align: center;
+}
+
+.popup-close {
+  color: white;
+}
+
+.popup-deal-grab {
+  color: white;
+  font-size: 52px;
+  font-family: 'Black Ops One';
+}
+
+.popup-call {
+  color: gray;
+}
+
+.popup-number {
+  font-family: 'Black Ops One';
+}
+
+  /*Desktop Mode*/
+  @media screen and (min-width: 1020px) {
+
+    .desktop-col-1 {width: 8.33%;}
+    .desktop-col-3 {width: 25%;}
+    .desktop-col-4 {width: 33.33%;}
+    .desktop-col-5 {width: 41.66%;}
+    .desktop-col-6 {width: 50%;}
+    
+    /* Header Section CSS*/
+
+    ul, li {
+        display: inline;
+        margin: 5%;
+    }
+
+    .menu-items {
+        text-align: center;
+        padding: 1.5%;
+    }
+
+    .desktop-Mode {display: block;}
+    .mobile-Mode {display: none;}
+
+    .logo {width: 55px; height: 67px;}
+
+    .header-logo-text{font-size: 42px; transform: translateY(-20px); text-decoration: none;}
+
+    .header-logo-text:hover {text-decoration: none;}
+
+    /* Hero Section CSS */
+
+    .hero {
+      padding: 0px;
+    }
+
+    .hero .hero-quote {
+      font-size: 18px;
+      transform: translateY(-18px);
+    }
+
+    .hero h1{
+      padding: 200px 3% 5% 10%;
+      font-family: 'Black Ops One', cursive;
+      font-size: 48px;
+    }
+
+    /* Options Section CSS */
+
+    .options-h3-banner {
+      position: absolute;
+      bottom: 200px;
+      left: 30%;
+      right: 30%;
+      color: white;
+    }
+
+    /* Footer Section CSS*/
+
+    .footer-logo {
+      width: 55px;
+      height: 70px;
+    }
+    
+    .footer-logo-text {
+      font-size: 42px;
+    }
+
+  }
