@@ -190,7 +190,7 @@ p {
 
 .options-h3 {
   position: absolute;
-  bottom: -200px;
+  bottom: -300px;
   left: 16px;
   padding: 50px;
   font-family: 'Black Ops One';
@@ -418,7 +418,7 @@ footer div.col-3 a {
       color: white;
     }
 
-    .options-h3 {bottom: -400px;}
+    .options-h3 {bottom: -300px;}
 
     /* Footer Section CSS*/
 
