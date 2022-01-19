@@ -190,9 +190,9 @@ p {
 
 .options-h3 {
   position: absolute;
-  bottom: 8px;
+  bottom: -200px;
   left: 16px;
-  padding: 275px 50px;
+  padding: 50px;
   font-family: 'Black Ops One';
   color: white;
 }
@@ -314,11 +314,11 @@ footer div.col-3 a {
 }
 
 .popup-top {
-  height: 250px;
+  height: 150px;
 }
 
 .popup-bottom {
-  height: 250px;
+  height: 350px;
 }
 
 .popup-close {
