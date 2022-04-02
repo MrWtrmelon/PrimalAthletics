@@ -160,6 +160,10 @@
   padding: 60px 40px;
 }
 
+.about-leftside {
+  padding: 10px;
+}
+
 h3 {
   font-size: 28px;
   line-height: 27px;
@@ -190,7 +194,7 @@ p {
 
 .options-h3 {
   position: absolute;
-  bottom: -300px;
+  bottom: -200px;
   left: 16px;
   padding: 50px;
   font-family: 'Black Ops One';
@@ -212,6 +216,8 @@ p {
   left: 10%;
   right: 10%;
   color: white;
+  font-family: 'Black Ops One';
+  text-align: center;
 }
 
 /* Article CSS */
@@ -222,7 +228,8 @@ article {
 }
 
 .article-img {
-  width: 100%;
+  width: 270px;
+  height: 340px;
 }
 
 .article-continue {
@@ -418,7 +425,14 @@ footer div.col-3 a {
       color: white;
     }
 
-    .options-h3 {bottom: -300px;}
+    .options-h3 {bottom: -400px;}
+
+    /* Article Section */
+
+    .article-img {
+      height: 540px;
+      width: 540px;
+    }
 
     /* Footer Section CSS*/
 
