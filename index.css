@@ -227,7 +227,7 @@ article {
   padding: 60px 40px;
 }
 
-.article-img {
+.article-img, iFrame {
   width: 270px;
   height: 340px;
 }
@@ -429,7 +429,7 @@ footer div.col-3 a {
 
     /* Article Section */
 
-    .article-img {
+    .article-img, iFrame {
       height: 540px;
       width: 540px;
     }
